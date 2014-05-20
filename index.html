@@ -1,79 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="shortcut icon" href="resources/ico/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<title>Anvesh Gopalam</title>
+    <title>Custom Navbar Template with Logo for Bootstrap 3</title>
 
-<!-- Bootstrap core CSS -->
-<link href="resources/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
+    <!-- Add custom CSS here -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+
 </head>
 
 <body>
-	<div class="container">
-		<div class="jumbotron">
 
-			<h1>Hey there!</h1>
-			<p>I'm still cooking this site!</p>
-			<p>
-				<img src="resources/img/chef-garfield.gif"></img>
-			</p>
-			<p>
-				Got some chicken? <br> <a
-					href="mailto:anvesh.g90@gmail.com?subject=Web Site Mail">Mail
-					me</a> if you find any! <br> I &hearts; Chicken! :D
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="http://placehold.it/150x50&text=Logo" alt="">
+                </a>
+            </div>
 
-			</p>
-		</div>
-		<div class="container">
-			Meanwhile, you can reach me through <br> <br>
-			<ul class="nav nav-pills">
-				<li><a href="https://www.facebook.com/anveshg90">Facebook</a></li>
-				<li><a href="http://www.anveshg90.wordpress.com">My Photo
-						Blog</a></li>
-				<li><a href="http://instagram.com/anveshg">Photo Gallery</a></li>
-				<li><a href="http://in.linkedin.com/in/anveshg">LinkedIn</a></li>
-			</ul>
-		</div>
-	</div>
-	<!-- /.container -->
-	<!-- Start of StatCounter Code -->
-	<script type="text/javascript">
-		var sc_project = 9757243;
-		var sc_invisible = 1;
-		var sc_security = "251f6467";
-		var scJsHost = (("https:" == document.location.protocol) ? "https://secure."
-				: "http://www.");
-		document
-				.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-	</script>
-	<noscript>
-		<div class="statcounter">
-			<a title="free web stats" href="http://statcounter.com/"
-				target="_blank"><img class="statcounter"
-				src="http://c.statcounter.com/9757243/0/251f6467/1/"
-				alt="free web
-stats"></a>
-		</div>
-	</noscript>
-	<!-- End of StatCounter Code-->
-	<!-- Bootstrap core JavaScript
-		================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="resources/js/bootstrap.min.js"></script>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>A custom navigation with a logo and faux centered menu items.</h1>
+                <p>The image size is 150x50 pixels. If you change the logo size, or if you change the font of the menu items, you will need to adjust the padding in <code>logo-nav.css</code>.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
 
 </body>
+
 </html>
