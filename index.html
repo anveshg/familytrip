@@ -5,7 +5,7 @@
     content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Family Trip May-Jun 2014</title>
+    <title>Home | Family Trip May-Jun 2014</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -13,23 +13,24 @@
                         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
                 <![endif]-->
     <link href="css/styles.css" rel="stylesheet" />
+	
   </head>
   <body>
-  <div class="navbar navbar-default">
+  <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Family Trip!</a>
+      <a class="navbar-brand" href="#"><i class="fa fa-users fa-2"></i> Family Trip!</a>
       <ul class="nav navbar-nav">
         <li class="active">
-          <a href="#">Home</a>
+          <a href="#"><i class="fa fa-home"></i> Home</a>
         </li>
         <li>
-          <a href="map.html">Map</a>
+          <a href="map.html"><i class="fa fa-map-marker"></i> Map</a>
+        </li>
+        <li >
+          <a href="poi.html"><i class="fa fa-eye"></i> Points of Interest</a>
         </li>
         <li>
-          <a href="poi.html">Points of Interest</a>
-        </li>
-        <li>
-          <a href="cost.html">Costs</a>
+          <a href="cost.html"><i class="fa fa-inr"></i> Costs</a>
         </li>
       </ul>
     </div>
@@ -40,12 +41,12 @@
       <p>May 29th - Jun 1st 2014</p>
     </div>
     <div class="row">
-      <p>Hello all family members!</p>
+      <h3>Hello all family members!</h3>
       <p>This is a small information website for our trip. This site is accessible to all (mobile friendly) and has all the data
       reconstructed from telephonic conversations and crude mails. Please 
       <a href="mailto:anvesh.g90@gmail.com?subject=Family%20Trip%20Site%20Information">let me know</a> if you feel any information
       has to be added.</p>
-      <p>The main requirements of our trip were:</p>
+      <p>The main <strong>requirements</strong> of our trip were:</p>
       <ul>
         <li>Good, cool, comfortable well maintained transport with well behaving good attitude driver for covering 750Km to 1000Km
         in three to four days.</li>
@@ -54,14 +55,14 @@
         <li>Neat and clean accomodation.</li>
         <li>Healthy food.</li>
       </ul>
-      <p>We hope all our requirements will be fulfilled and that our trip will be a happy and a memorable one!</p>
+	  <div class="alert alert-success">Please scroll down for a detailed itinerary. We hope all our requirements will be fulfilled and that our trip will be a happy and a memorable one! <i class="fa  fa-smile-o fa-2"></i></div>
     </div>
     <hr />
     <div class="row">
-      <h3 align="center">Itinerary</h3>
+      <h3 align="center"><i class="fa fa-suitcase"></i> Itinerary</h3>
       <div class="col-md-3">
         <h4>
-          <span class="label label-primary">May 29th 2014</span>
+          <span class="label label-primary"><i class="fa fa-calendar"></i>  May 29th 2014</span>
         </h4>
         <ul>
           <li>
@@ -73,8 +74,7 @@
           <li>
           <strong>7:30am</strong> 
           <em>(appx)</em> :
-          <br />Stop en route for Breakfast. ( 
-          <a href="http://www.zomato.com/bangalore/kamat-lokaruchi-mysore-road">Possible Breakfast Location</a>)</li>
+          <br />Stop en route for Breakfast. (<a href="http://www.zomato.com/bangalore/kamat-lokaruchi-mysore-road">Possible Breakfast Location</a>)</li>
           <li>
           <strong>8:30am</strong> 
           <em>(appx)</em> :
@@ -82,9 +82,8 @@
           <li>
           <strong>8:30am to 3:00pm</strong> 
           <em>(appx)</em> :
-          <br />Visit to some places mentioned below <i class="fa fa-exclamation-circle"></i> :
-          <br />Lunch en-route ( 
-          <a href="http://adigas.in/maddur/">Adiga&#39;s Maddur</a>)</li>
+          <br />Visit to some places mentioned below :
+          <br />Lunch en-route (<a href="http://adigas.in/maddur/">Adiga&#39;s Maddur</a>)</li>
           <li>
           <strong>3:00pm</strong> 
           <em>(max)</em> :
@@ -98,39 +97,44 @@
           <em>(appx)</em> :
           <br />Dinner</li>
         </ul>
-		<p>
-        <div class="panel-group" id="accordion">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="fa fa-chevron-circle-down"></i> Choice of Places</a>
-              </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse">
-              <div class="panel-body">
-                <ul>
-                  <li>
-                    <abbr title="13km from Mandya">Ambegalu Krishna Temple (Dodda Malur)</abbr>
-                  </li>
-                  <li>
-                    <abbr title="3.5km from Mysore Road">Ugranarasimha temple and Varadaraja (Maddur)</abbr>
-                  </li>
-                  <li>
-                    <abbr title="20km from Mysore Road">Cheluvaraya and Lakshmi Narasimha Temple (melkote)</abbr>
-                  </li>
-                  <li>
-                    <abbr title="5km from Mysore Road">Sri Kavetiranganatha Temple (Srirangapatna)</abbr>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <!-- Button trigger modal -->
+<button class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#places">
+  <i class="fa fa-info"></i> Places to Visit
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="places" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Places to Visit</h4>
+      </div>
+      <div class="modal-body">
+        <p>These are some places that are en-route to Nanjangud which can be visited</p>
+		<dl class="dl-horizontal">
+                <dt>Dodda Malur</dt>
+                <dd>Ambegalu Krishna Temple - 13km from Mandya</dd>
+                <dt>Maddur</dt>
+                <dd>Ugranarasimha temple and Varadaraja - 3.5km from Mysore Road</dd>
+                <dt>Melukote</dt>
+                <dd>Cheluvaraya and Lakshmi Narasimha Temple - 20km from Mysore Road</dd>
+                <dt>Srirangapatna</dt>  
+				<dd>Sri Kavetiranganatha Temple - 5km from Mysore Road</d>
+				<dt>Chamundi Hills</dt>
+				<dd>Chamundeshwari Temple - Off mysore road</dd>
+        </dl>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
         </div>
-		</p>
+    </div>
+  </div>
+</div>
       </div>
       <div class="col-md-3">
         <h4>
-          <span class="label label-primary">May 30th 2014</span>
+          <span class="label label-primary"><i class="fa fa-calendar"></i>  May 30th 2014</span>
         </h4>
         <ul>
           <li>
@@ -152,7 +156,7 @@
       </div>
       <div class="col-md-3">
         <h4>
-          <span class="label label-primary">May 31th 2014</span>
+          <span class="label label-primary"><i class="fa fa-calendar"></i>  May 31th 2014</span>
         </h4>
         <ul>
           <li>
@@ -184,7 +188,7 @@
       </div>
       <div class="col-md-3">
         <h4>
-          <span class="label label-primary">Jun 1st 2014</span>
+          <span class="label label-primary"><i class="fa fa-calendar"></i>  Jun 1st 2014</span>
         </h4>
         <ul>
           <li>
@@ -229,5 +233,6 @@
   <!-- script references -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> 
   <script src="js/bootstrap.min.js"></script> 
-  <script src="js/scripts.js"></script></body>
+  <script src="js/scripts.js"></script>
+  </body>
 </html>
